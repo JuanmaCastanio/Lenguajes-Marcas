@@ -1,0 +1,29 @@
+body{
+    background-color: red;
+    margin-left: 8%;
+}
+.azul{
+    background-color: blue;
+    color: blue;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 20%;
+    height: 200px;
+}
+div>div{
+    background-color: yellow;
+    color: yellow;
+    margin-top: 200px;
+    height: 50px;
+}
+#verde{
+    color: green;
+    background-color: green;
+    float: left;
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 80%;
+    height: 150px;
+}

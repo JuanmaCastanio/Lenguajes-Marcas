@@ -1,0 +1,31 @@
+.colorletras{
+color: #3366b7;
+letter-spacing: 2px;
+word-spacing: 20px;
+text-align: start;
+text-decoration: underline overline;
+text-indent: 10%;
+text-transform: capitalize;
+line-height: 50px;
+}
+.fuentes{
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+p:last-of-type{
+    background-image: url("https://picsum.photos/60/60");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: contain; /*Reduce la foto ancho y alto hasta ajustarla al tamaño de quien la contiene.*/
+    /*background-size: cover;  /*Reduce la foto en anchura o Altura, ocupará la imagen más por tanto que el contened*/
+    /*background-position: 10% 10%;*/
+    background-position: top right;
+    
+}
+.bordes{
+    border: black 0.1px dotted;
+}

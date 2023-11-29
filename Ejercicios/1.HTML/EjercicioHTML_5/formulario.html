@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Información sobre el producto</h2>
+    <form method="get">
+        <fieldset>
+            <legend>Datos Básicos</legend>
+            Nombre: <input type="text" name="Nombre"></br></br>
+            Descripción: <input type="text" name="Descripcion"></br></br>
+            Foto: <input type="file" name="Foto" accept=".jpg,.png"></br></br>
+            <input type="checkbox" name="Contador" >Añadir contador de visitas
+        </fieldset>
+        <fieldset>
+            <legend>Datos Económicos</legend>
+            Precio: <input type="number" name="Precio" min="0"> €
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impuestos:
+            <select name="precio_iva" >
+                <option value="iva4">4%</option>
+                <option value="iva10">10%</option>
+                <option value="iva21">21%</option>
+            </select> </br></br>
+            Promoción</br>
+            <input type="radio" name="Promocion" checked>Ninguno</br>
+            <input type="radio" name="Promocion">Transpoirte gratuito</br>
+            <input type="radio" name="Promocion">Descuento 5%</br>
+        </fieldset>
+        </br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+</html>

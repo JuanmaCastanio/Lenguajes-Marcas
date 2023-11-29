@@ -1,0 +1,15 @@
+img:first-of-type{
+    float: right;
+}
+p:first-of-type{
+    clear: both;/*no deja flotar al primer párrafo a ambos lados*/
+}
+img:last-of-type{
+    position: absolute;/*Coloca la imagen en cualquier parte de la pagina sin respetar bloques*/
+    /*position: relative;Coloca la imagen a partir del último bloque*/
+    top: 100px;
+    left: 100px;
+    /*opacity: 0.5; Define la opacidad de la imagen*/
+    /*position: fixed; Fija la imagen*/
+    position: sticky;
+}

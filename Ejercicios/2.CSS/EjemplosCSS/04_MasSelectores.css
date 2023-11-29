@@ -1,0 +1,38 @@
+input:focus{
+    background-color: crimson;
+}
+input:checked{
+    background-color: yellow;
+    outline: rgb(170, 255, 0) 1px solid;
+}
+input:not([type="text"]) {
+    border: 4px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+    margin: 20px;
+}
+tr:nth-of-type(2n + 1){
+    background-color: rgb(253, 138, 219);
+}
+tr:nth-of-type(2n){
+    background-color: rgb(230, 0, 255);
+}
+td:first-child{
+    background-color: blueviolet;
+}
+td:hover{
+    background-color: cyan;
+}
+a:link{
+    color: rgb(179, 233, 245);
+}
+a:visited{
+    color: rgb(10, 248, 10)
+}
+a:hover{
+    color: violet;
+}
+a:active{
+    color: crimson;
+}

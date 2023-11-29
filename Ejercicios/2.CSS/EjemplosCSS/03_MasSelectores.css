@@ -1,0 +1,23 @@
+td + td{
+    background-color: beige;
+}
+p + p{
+    background-color: aqua;
+}
+p + *{
+    background-color: crimson;
+}
+.verdes{
+    color: green;
+}
+.grandes > td{
+    font-size: 22px;
+    font-weight: bold;
+}
+/*td + .grandes{
+    font-size: 22px;
+    font-weight: bold;
+}*/
+#enorme{
+    font-size: 200px;
+}

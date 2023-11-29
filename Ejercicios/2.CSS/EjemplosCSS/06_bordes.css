@@ -1,0 +1,48 @@
+#borde1_parrafo{
+    border: 1px solid black;
+    /*padding-left: 20%;*/
+
+}
+#borde_imagen{
+    clip-path: polygon(10% 25%, 45% 34%, 37% 4%, 66% 4%, 56% 34%, 90% 21%, 89% 54%, 56% 45%, 66% 73%, 35% 72%, 45% 43%, 10% 50%);
+    display: block; /*Convierte la etiqueta en bloque*/
+    margin: auto; /*Centra la imagen teniendo en cuenta los márgenes*/
+}
+#imagen2{
+    display: block;
+    margin-left: calc(50% - 100px);
+}
+#ultimo_parrafo{
+    border: 1px solid black;
+    border-radius: 10px; /*Redondea el borde*/
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    overflow: auto;/*Encasilla el texto dentro de un cuadro con barras*/
+}
+ul{
+    list-style: none;/*Elimina los puntos*/
+
+}
+li:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+a:hover{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+li{
+    display: inline-block;/*Los coloca en bloque hasta la anchura de cada contenedor y luego todos en linea*/
+}
+/*Referencias:
+http://bennettfeely.com/clippy/
+https://developer.mozilla.org/es/docs/Web/CSS/clip-path*/

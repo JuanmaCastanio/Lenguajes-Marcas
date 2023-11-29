@@ -1,0 +1,33 @@
+body, html{
+    margin: 0px;
+}
+#menu{
+    background-color: gainsboro;
+    position: sticky;
+    top: 0px;
+}
+#texto{
+    height: 90%;
+    margin: 10px;
+}
+ul>li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>li:hover{
+    background-color: darkgrey;
+}
+#ejemploSticky{
+    background-color: red;
+    margin: 0px;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 0px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre: <input type="text" name="Nombre" placeholder="Inserte nombre" required></br>
+            Edad: <input type="number" name="Edad" placeholder="Inserte edad" min="0" max="100"></br>
+            Sexo:   <input type="radio" name="Sexo" value="Hombre" checked>Hombre
+                    <input type="radio" name="Sexo" value="Mujer">Mujer</br>
+        </fieldset>
+        <Fieldset>
+            <legend>Datos no Personales</legend>
+            Deportes favoritos: <input type="checkbox" name="deportes" value="futbol">Futbol
+                                <input type="checkbox" name="deportes" value="baloncesto">Baloncesto
+                                <input type="checkbox" name="deportes" value="tennis">Tennis</br>
+            Color Favorito: <input type="color" name="Color"></br>
+            Fecha Nacimiento: <input type="date" name="Fecha" value="2020-06-01"></br>
+            Correo Electrónico: <input type="email" name="Correo" placeholder="Inserte correo"></br>
+            Foto: <input type="file" name="Imagen" accept=".jpg"></br>
+            Contraseña: <input type="password" name="Contrasena"></br>
+            Web Personal: <input type="url" name="Web"></br>
+        </Fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+
+</body>
+</html>

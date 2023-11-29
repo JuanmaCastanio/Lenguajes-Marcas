@@ -1,0 +1,47 @@
+#menu{
+    position: sticky;
+    top: 0px;
+    margin-top: 150px;
+}
+ul{
+    padding-left: 10px;
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+    width: 15%;
+    padding: 15px;
+    margin-top: 15px;
+}
+#texto{
+    top: 0px;
+    padding-left: 45px;
+    margin-left: 15%;
+}
+#Inicio{
+    background-color: rgb(20, 175, 20);
+    color: white;
+    border-radius: 4px;
+}
+#Novedades{
+    background-color:  rgb(20, 175, 20);
+    color: white;
+    border-radius: 4px;
+}
+#Contacto{
+    background-color:  rgb(20, 175, 20);
+    color: white;
+    border-radius: 4px;
+}
+#Empresa{
+    background-color:  rgb(20, 175, 20);
+    color: white;
+    border-radius: 4px;
+}
+a:hover{
+    background-color:  rgb(20, 175, 20);
+    color: black !important;
+    border-radius: 4px;
+}

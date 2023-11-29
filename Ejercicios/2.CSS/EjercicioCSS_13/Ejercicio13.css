@@ -1,0 +1,31 @@
+body{
+    background-color: yellow;
+    top: 0px;
+    left: 0px;
+}
+#menu {
+    position: sticky;
+    background-color: rgb(68, 68, 5);
+    padding-right: 50px;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+#texto{
+    margin: 55px; 
+}
+ul>li{
+    display: inline-block;
+    padding-bottom: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(227, 227, 19);
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+ul>li:hover>a{
+    background-color: olive;
+    color: black;
+}

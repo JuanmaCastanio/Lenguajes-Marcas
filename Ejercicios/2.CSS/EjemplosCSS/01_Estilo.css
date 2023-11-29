@@ -1,0 +1,25 @@
+body{
+    /*
+    Comentarios
+    */
+    background-color:#c0a489;
+    color: #29e610;
+}
+h1{
+    color: aqua ;
+    text-transform: uppercase;
+}
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+*/
+div{
+    line-height: 35px;    
+}
+span,h1{
+    text-decoration: underline;
+    color: black;
+}

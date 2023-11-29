@@ -1,0 +1,52 @@
+#distribucion{
+    display: flex;
+    margin-left: 400px;
+}
+
+#primer{
+    position: fixed;
+    margin-top: 5%;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    height: 75px;
+    left: 270px;
+}
+#ultimo{
+    position: fixed;
+    margin-top: 5%;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    height: 75px;
+    right: 200px;
+}
+#primer:hover, #ultimo:hover{
+    background-color: black;
+    border: 5px double white;
+}
+.impar{
+    background-color: dimgray;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    border: 10px dashed black;
+}
+.par{
+    background-color: aliceblue;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    border-left: 10px dashed black;
+    border-right: 10px dashed black;
+}
+h1{
+    margin: 0px;
+    color: rgb(243, 59, 90);
+    font-size: 50px;
+    font-weight: bold;
+}

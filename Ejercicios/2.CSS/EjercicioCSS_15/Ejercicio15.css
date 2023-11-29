@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+    margin: 0px;
+    background-color: rgb(246, 240, 240);
+    width: 125px;
+}
+img{
+    visibility: hidden;
+    width: 10px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+a:hover{
+    background-color: gainsboro;
+}
+li:hover img{
+    visibility: visible;
+}

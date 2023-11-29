@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+span{
+    color: red;
+    text-decoration: underline;
+}
+div>span{
+    color:yellow;
+}
+h3{
+    color: aliceblue;
+    background-color: rgb(0, 128, 255);
+
+} 
+h4{
+    color: aliceblue;
+    background-color: rgb(0, 179, 255);
+}  

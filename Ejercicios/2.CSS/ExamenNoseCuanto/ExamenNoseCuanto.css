@@ -1,0 +1,43 @@
+html, body{
+    scroll-padding-top: 70px;
+}
+ul{
+    position: fixed;
+    margin-left: 75%;
+    top: 25px;
+}
+ul>li{
+    display: inline-block;
+    list-style: none;
+    
+}
+#titulo{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    position: fixed;
+    padding-bottom: 50px;
+    background-color: grey;
+}
+#texto{
+    margin-right: 80%;
+    margin-top: 70px;
+
+}
+#imagen{
+    position: fixed;
+    top: 80px;
+    left: 250px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}

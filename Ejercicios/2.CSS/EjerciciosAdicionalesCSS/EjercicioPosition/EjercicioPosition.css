@@ -1,0 +1,5 @@
+div:first-of-type{
+    position: sticky;
+    top: 0px;
+    background: blue
+}

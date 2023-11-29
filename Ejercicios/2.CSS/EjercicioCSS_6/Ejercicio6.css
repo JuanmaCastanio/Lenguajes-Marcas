@@ -1,0 +1,18 @@
+ol > li{
+    font-weight: bold;
+}
+#textoverde{
+    color: green;
+}
+.grande{
+    font-size: larger;
+}
+h1,h2,h3{
+    background-color: aqua;
+}
+p[color="blue"]{
+    color: yellow;
+}
+a:visited{
+    color: crimson;
+}

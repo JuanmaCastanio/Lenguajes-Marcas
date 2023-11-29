@@ -1,0 +1,40 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    scroll-padding-top: 70px;
+}
+#Menu{
+    position: sticky;
+    top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: cyan;   
+}
+ul>li{
+    margin-top: 20px;
+    margin-right: 70px;
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
+}
+a:hover{
+    background-color: rgb(151, 244, 244);
+    color: white;
+}
+#Texto{
+    margin-left: 2%;
+}
+#Edad{
+    width: 50px;
+}
+.datos{
+    width: 75px;
+    margin-right: 10px;
+
+}
